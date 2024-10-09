@@ -1,0 +1,6 @@
+{
+    "extends": "@pronto-agendei/ts-config/react.json",
+    "include": [
+        "src"
+    ]
+}
