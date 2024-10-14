@@ -1,0 +1,3 @@
+{
+  "extends": "@pronto-agendei/eslint-config"
+}

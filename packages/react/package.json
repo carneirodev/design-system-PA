@@ -6,16 +6,24 @@
   "module": "./dist/index.mjs",
   "types": "./dist/index.d.ts",
   "scripts": {
-    "build": "tsup src/index.ts --format esm,cjs --dts",
-    "dev": "tsup src/index.ts --format esm,cjs --dts --watch"
+    "build": "tsup src/index.tsx --format esm,cjs --dts --external react",
+    "dev": "tsup src/index.tsx --format esm,cjs --dts --external react --watch",
+    "lint": "eslint src/**/*.ts* --fix --ignore-pattern 'node_modules/*'"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "tsup": "^8.3.0",
-    "typescript": "^5.6.3",
+    "@pronto-agendei/eslint-config": "*",
     "@pronto-agendei/tokens": "*",
-    "@pronto-agendei/ts-config": "*"
+    "@pronto-agendei/ts-config": "*",
+    "@types/react": "^18.3.11",
+    "@types/react-dom": "^18.3.0",
+    "react": "^18.3.1",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.3"
+  },
+  "dependencies": {
+    "@stitches/react": "^1.2.8"
   }
 }
