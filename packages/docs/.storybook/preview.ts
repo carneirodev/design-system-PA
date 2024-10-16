@@ -9,7 +9,7 @@ const preview: Preview = {
       },
     },
     backgrounds: {
-    default: 'dark'
+    default: 'light'
   },
   docs: {
     theme: themes.dark,
