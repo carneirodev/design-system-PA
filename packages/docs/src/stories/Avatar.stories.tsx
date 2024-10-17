@@ -8,7 +8,7 @@ export default {
         alt: 'Diego Fernandes',
     },
 } as Meta<AvatarProps>
-export const Primary: StoryObj<AvatarProps> = {}
+export const BlueDark: StoryObj<AvatarProps> = {}
 export const WithFallback: StoryObj<AvatarProps> = {
     args: {
         src: undefined,

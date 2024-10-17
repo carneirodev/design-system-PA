@@ -19,8 +19,8 @@ export const AvatarFallback = styled(Avatar.Fallback, {
   display: 'flex',
   alignItems: 'center',
   justifyContent: 'center',
-  backgroundColor: '$night500',
-  color: '$secondary300',
+  backgroundColor: '$gray500',
+  color: '$green300',
   svg: {
     width: '$6',
     height: '$6',

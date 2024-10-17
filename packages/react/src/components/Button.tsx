@@ -25,31 +25,31 @@ export const Button = styled('button', {
     },
     variants: {
         variant: {
-            primary: {
+            blueDark: {
                 color: '$white',
-                background: '$secondary300',
+                background: '$green300',
                 '&:not(:disabled):hover': {
-                    background: '$secondary500',
+                    background: '$green500',
                 },
                 '&:disabled': {
-                    backgroundColor: '$night100',
+                    backgroundColor: '$gray100',
                 },
             },
-            secondary: {
+            green: {
                 color: '$white',
-                border: '2px solid $primary400',
-                backgroundColor: '$primary400',
+                border: '2px solid $blueDark400',
+                backgroundColor: '$blueDark400',
                 '&:not(:disabled):hover': {
-                    background: '$primary100',
+                    background: '$blueDark100',
                     color: '$white',
                 },
                 '&:disabled': {
-                    borderColor: '$night100',
+                    borderColor: '$gray100',
                 },
             },
             tertiary: {
                 color: '$light200',
-                backgroundColor: '$night200',
+                backgroundColor: '$gray200',
                 '&:not(:disabled):hover': {
                     color: '$white',
                 },
@@ -68,13 +68,13 @@ export const Button = styled('button', {
         },
     },
     defaultVariants: {
-        variant: 'primary',
+        variant: 'blueDark',
         size: 'md',
     },
 })
 export interface ButtonProps extends ComponentProps<typeof Button> {
     as?: ElementType
-    variant?: 'primary' | 'secondary' | 'tertiary';
+    variant?: 'blueDark' | 'green' | 'tertiary';
     children?: React.ReactNode
     disabled?: boolean
     size?: 'sm' | 'md'

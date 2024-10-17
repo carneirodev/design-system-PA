@@ -8,7 +8,7 @@ export default {
         children: 'Custom title',
     },
 } as Meta<HeadingProps>
-export const Primary: StoryObj<HeadingProps> = {}
+export const BlueDark: StoryObj<HeadingProps> = {}
 export const CustomTag: StoryObj<HeadingProps> = {
     args: {
         children: 'H1 Heading',

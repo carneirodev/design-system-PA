@@ -9,10 +9,10 @@ export default {
         children: 'Send',
     },
 } as Meta<ButtonProps>
-export const Primary: StoryObj<ButtonProps> = {}
-export const Secondary: StoryObj<ButtonProps> = {
+export const BlueDark: StoryObj<ButtonProps> = {}
+export const Green: StoryObj<ButtonProps> = {
     args: {
-        variant: 'secondary',
+        variant: 'green',
         children: 'Create new',
     },
 }
