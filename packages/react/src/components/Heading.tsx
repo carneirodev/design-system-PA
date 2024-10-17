@@ -26,3 +26,5 @@ export interface HeadingProps extends ComponentProps<typeof Heading> {
     as?: ElementType
     children?: ReactNode
 }
+
+Heading.displayName = 'Heading'
