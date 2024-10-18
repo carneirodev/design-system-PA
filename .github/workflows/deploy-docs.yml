@@ -12,10 +12,10 @@ jobs:
             - name: Setup Node.js
               uses: actions/setup-node@v3
               with:
-                    node-version: 16
+                    node-version: 18
             - run: npm ci
             - run: npm cache clean --force
-            - run: npm install esbuild@0.23.1
+            - run: npm install esbuild@0.17.19
             - run: npm run build
             - name: Deploy storybook
               working-directory: ./packages/docs
