@@ -20,7 +20,7 @@ jobs:
             - run: npm install esbuild@0.17.19
             - run: npm run build
               env:
-                TURBO_TOKEN: ${{ secrets.NPM_TOKEN }}
+                TURBO_TOKEN: ${{ secrets.VERCEL_TOKEN }}
                 TURBO_TEAM: pronto-agendei
             - name: Deploy storybook
               working-directory: ./packages/docs
