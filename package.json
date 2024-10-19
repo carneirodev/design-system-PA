@@ -7,9 +7,9 @@
   "scripts": {
     "dev": "turbo run dev --parallel",
     "build": "turbo run build",
-    "changeset": "changesets",
-    "version-packages": "changesets version",
-    "release": "npx turbo run build --filter=./packages/docs && npx changeset publish"
+    "changeset": " changeset",
+    "version-packages": "changeset version",
+    "release": "turbo run build --filter=./packages/docs && changeset publish"
   },
   "devDependencies": {
     "@changesets/cli": "^2.27.9",
