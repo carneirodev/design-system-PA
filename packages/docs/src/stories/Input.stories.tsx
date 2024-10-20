@@ -30,6 +30,7 @@ export const Disabled: StoryObj<TextInputProps> = {
 }
 export const WithPrefix: StoryObj<TextInputProps> = {
     args: {
-        prefix: 'cal.com/',
+        prefix: 'prontoagendei.app/',
+        placeholder: 'Nome do seu centro esportivo',
     },
 }

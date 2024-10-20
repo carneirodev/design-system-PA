@@ -28,6 +28,9 @@ export const Button = styled('button', {
             primary: {
                 color: '$blueDark500',
                 background: '$green300',
+                '&:focus': {
+                    boxShadow: '0 0 0 2px $colors$gray100',
+                },
                 '&:not(:disabled):hover': {
                     background: '$green500',
                 },
