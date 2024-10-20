@@ -12,7 +12,7 @@ export default {
                     css={{ display: 'flex', flexDirection: 'row', gap: '$2' }}
                 >
                     {Story()}
-                    <Text size="sm" css={{ color: 'white' }}>Accept terms of use</Text>
+                    <Text size="sm" css={{ color: '$gray600' }}>Accept terms of use</Text>
                 </Box>
             )
         },

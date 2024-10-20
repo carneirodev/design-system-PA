@@ -11,7 +11,7 @@ export default {
                     as="label"
                     css={{ display: 'flex', flexDirection: 'column', gap: '$1', maxWidth: '500px' }}
                 >
-                    <Text size="sm" css={{ color: '$white' }}>Email address</Text>
+                    <Text size="sm" >Email address</Text>
                     {Story()}
                 </Box>
             )
