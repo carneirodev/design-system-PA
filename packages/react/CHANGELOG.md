@@ -1,5 +1,11 @@
 # @pronto-agendei/react
 
+## 2.2.0
+
+### Minor Changes
+
+- style: Adjust colors across all components
+
 ## 2.1.0
 
 ### Minor Changes
