@@ -1,5 +1,11 @@
 # @pronto-agendei/react
 
+## 2.3.0
+
+### Minor Changes
+
+- New component select
+
 ## 2.2.0
 
 ### Minor Changes
