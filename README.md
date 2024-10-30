@@ -5,6 +5,8 @@
 Bem-vindo ao **Pronto Agendei Design System**. Esta biblioteca oferece uma coleção de componentes reutilizáveis de UI e estilos consistentes para construir interfaces agradáveis e funcionais.
 
 ---
+[Acesse o Design System do Pronto Agendei](https://carneirodev.github.io/design-system-PA/)
+---
 
 ## 📦 Instalação
 
