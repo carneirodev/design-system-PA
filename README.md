@@ -1,8 +1,4 @@
-Com base nos arquivos de stories que você enviou, aqui está uma integração no README com exemplos de uso para cada um dos componentes, seguindo um padrão claro e consistente. Esses exemplos ajudam outros desenvolvedores a entender como utilizar cada componente na prática.
-
----
-
-# Pronto Agendei Design System
+# Pronto Agendei Design System ⚽
 
 ## 📖 Introdução
 
