@@ -8,5 +8,6 @@ export * from './components/TextArea'
 export * from './components/Checkbox'
 export * from './components/MultiStep'
 export * from './components/Select'
+export * from './components/Spinner'
 
 export * from './styles'

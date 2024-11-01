@@ -1,5 +1,11 @@
 # @pronto-agendei/react
 
+## 2.4.0
+
+### Minor Changes
+
+- New spinner component
+
 ## 2.3.0
 
 ### Minor Changes
