@@ -168,6 +168,8 @@ export interface SelectProps {
     disabled?: boolean
     variant?: 'primary' | 'secondary' | 'tertiary'
     size?: 'sm' | 'md'
+    value?: string
+    defaultValue?: string
 }
 
 export const Select: React.FC<SelectProps> = ({
@@ -177,9 +179,11 @@ export const Select: React.FC<SelectProps> = ({
     disabled,
     variant = 'primary',
     size = 'md',
+    value,
+    defaultValue,
 }) => {
     return (
-        <RadixSelect.Root onValueChange={onValueChange} disabled={disabled}>
+        <RadixSelect.Root onValueChange={onValueChange} disabled={disabled} value={value} defaultValue={defaultValue}>
             <StyledTrigger variant={variant} size={size} aria-label={placeholder}>
                 <RadixSelect.Value placeholder={placeholder} />
                 <StyledIcon>

@@ -1,5 +1,11 @@
 # @pronto-agendei/react
 
+## 2.4.1
+
+### Patch Changes
+
+- add value and default value on select
+
 ## 2.4.0
 
 ### Minor Changes
